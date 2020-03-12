@@ -12,7 +12,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/women/47.jpg",
       medium: "https://randomuser.me/api/portraits/med/women/47.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/women/47.jpg"
-    }
+    },
+    income: "12045"
   },
   {
     gender: "male",
@@ -27,7 +28,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/men/13.jpg",
       medium: "https://randomuser.me/api/portraits/med/men/13.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/men/13.jpg"
-    }
+    },
+    income: "22135"
   },
   {
     gender: "male",
@@ -42,7 +44,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/men/88.jpg",
       medium: "https://randomuser.me/api/portraits/med/men/88.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/men/88.jpg"
-    }
+    },
+    income: "44185"
   },
   {
     gender: "male",
@@ -57,7 +60,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/men/44.jpg",
       medium: "https://randomuser.me/api/portraits/med/men/44.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/men/44.jpg"
-    }
+    },
+    income: "66849"
   },
   {
     gender: "male",
@@ -72,7 +76,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/men/29.jpg",
       medium: "https://randomuser.me/api/portraits/med/men/29.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/men/29.jpg"
-    }
+    },
+    income: "90145"
   },
   {
     gender: "male",
@@ -87,7 +92,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/men/2.jpg",
       medium: "https://randomuser.me/api/portraits/med/men/2.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/men/2.jpg"
-    }
+    },
+    income: "10045"
   },
   {
     gender: "female",
@@ -102,7 +108,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/women/43.jpg",
       medium: "https://randomuser.me/api/portraits/med/women/43.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/women/43.jpg"
-    }
+    },
+    income: "82545"
   },
   {
     gender: "male",
@@ -117,7 +124,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/men/9.jpg",
       medium: "https://randomuser.me/api/portraits/med/men/9.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/men/9.jpg"
-    }
+    },
+    income: "648132"
   },
   {
     gender: "female",
@@ -132,7 +140,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/women/94.jpg",
       medium: "https://randomuser.me/api/portraits/med/women/94.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/women/94.jpg"
-    }
+    },
+    income: "112358"
   },
   {
     gender: "female",
@@ -147,7 +156,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/women/74.jpg",
       medium: "https://randomuser.me/api/portraits/med/women/74.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/women/74.jpg"
-    }
+    },
+    income: "781462"
   },
   {
     gender: "male",
@@ -162,7 +172,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/men/11.jpg",
       medium: "https://randomuser.me/api/portraits/med/men/11.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/men/11.jpg"
-    }
+    },
+    income: "362145"
   },
   {
     gender: "female",
@@ -177,7 +188,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/women/14.jpg",
       medium: "https://randomuser.me/api/portraits/med/women/14.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/women/14.jpg"
-    }
+    },
+    income: "621045"
   },
   {
     gender: "female",
@@ -192,7 +204,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/women/81.jpg",
       medium: "https://randomuser.me/api/portraits/med/women/81.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/women/81.jpg"
-    }
+    },
+    income: "144578"
   },
   {
     gender: "male",
@@ -207,7 +220,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/men/98.jpg",
       medium: "https://randomuser.me/api/portraits/med/men/98.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/men/98.jpg"
-    }
+    },
+    income: "608872"
   },
   {
     gender: "male",
@@ -222,7 +236,8 @@ var fakeData = [
       large: "https://randomuser.me/api/portraits/men/11.jpg",
       medium: "https://randomuser.me/api/portraits/med/men/11.jpg",
       thumbnail: "https://randomuser.me/api/portraits/thumb/men/11.jpg"
-    }
+    },
+    income: "648001"
   }
 ];
 export default fakeData;
