@@ -24,6 +24,14 @@
 }
 .card h4 {
   text-transform: capitalize;
-  margin: 8px opx;
+  margin: 8px 0px;
   letter-spacing: 0.05rem;
+}
+.card button {
+  width: 120px;
+  height: 30px;
+  border: 2px solid teal;
+  border-radius: 7px;
+  margin-top: 10px;
+  font-weight: bold;
 }
