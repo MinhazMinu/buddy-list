@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #eeeeee;
+  width: 100%;
+  padding: 16px;
+  margin: 32px auto;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s linear;
+}
+.card:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  border-radius: 50%;
+  border: 1px solid teal;
+}
+.card h4 {
+  text-transform: capitalize;
+  margin: 8px opx;
+  letter-spacing: 0.05rem;
+}

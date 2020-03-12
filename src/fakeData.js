@@ -1,11 +1,7 @@
 var fakeData = [
   {
     gender: "female",
-    name: {
-      title: "Mrs",
-      first: "Lina",
-      last: "Fontai"
-    },
+    name: "Mrs. Lina Fontai",
     email: "lina.fontai@example.com",
     dob: {
       date: "1951-03-23T09:25:21.760Z",
@@ -20,11 +16,7 @@ var fakeData = [
   },
   {
     gender: "male",
-    name: {
-      title: "Mr",
-      first: "Troy",
-      last: "Macrae"
-    },
+    name: "Mr. Toyi Markai",
     email: "troy.macrae@example.com",
     dob: {
       date: "1972-12-04T07:47:00.328Z",
@@ -39,11 +31,7 @@ var fakeData = [
   },
   {
     gender: "male",
-    name: {
-      title: "Mr",
-      first: "Elias",
-      last: "Perez"
-    },
+    name: "Mr.Elilas Peraz",
     email: "elias.perez@example.com",
     dob: {
       date: "1984-03-09T05:33:40.053Z",
@@ -58,11 +46,7 @@ var fakeData = [
   },
   {
     gender: "male",
-    name: {
-      title: "Mr",
-      first: "Gökhan",
-      last: "Baturalp"
-    },
+    name: "Mr. Abu Ghani",
     email: "gokhan.baturalp@example.com",
     dob: {
       date: "1972-11-08T01:34:46.449Z",
@@ -77,11 +61,7 @@ var fakeData = [
   },
   {
     gender: "male",
-    name: {
-      title: "Mr",
-      first: "Charles",
-      last: "Robinson"
-    },
+    name: "Mr.Charles Robinson",
     email: "charles.robinson@example.com",
     dob: {
       date: "1977-03-19T11:12:38.477Z",
@@ -96,11 +76,7 @@ var fakeData = [
   },
   {
     gender: "male",
-    name: {
-      title: "Mr",
-      first: "Walter",
-      last: "Howard"
-    },
+    name: "Mr.Walted Hower",
     email: "walter.howard@example.com",
     dob: {
       date: "1965-08-06T14:21:29.887Z",
@@ -115,11 +91,7 @@ var fakeData = [
   },
   {
     gender: "female",
-    name: {
-      title: "Miss",
-      first: "Natalie",
-      last: "Lopez"
-    },
+    name: "Miss Natalia Lopez",
     email: "natalie.lopez@example.com",
     dob: {
       date: "1991-07-24T23:10:19.601Z",
@@ -134,11 +106,7 @@ var fakeData = [
   },
   {
     gender: "male",
-    name: {
-      title: "Mr",
-      first: "Tomas",
-      last: "Calvo"
-    },
+    name: "Mr. Tomas Calvo",
     email: "tomas.calvo@example.com",
     dob: {
       date: "1967-04-10T20:54:05.115Z",
@@ -153,11 +121,7 @@ var fakeData = [
   },
   {
     gender: "female",
-    name: {
-      title: "Miss",
-      first: "Maya",
-      last: "Muller"
-    },
+    name: "Miss Maya Muller",
     email: "maya.muller@example.com",
     dob: {
       date: "1974-01-10T23:21:00.032Z",
@@ -172,11 +136,7 @@ var fakeData = [
   },
   {
     gender: "female",
-    name: {
-      title: "Mrs",
-      first: "Florence",
-      last: "Otoole"
-    },
+    name: "mrs Florence Otoole",
     email: "florence.otoole@example.com",
     dob: {
       date: "1982-09-08T08:39:45.660Z",
@@ -191,11 +151,7 @@ var fakeData = [
   },
   {
     gender: "male",
-    name: {
-      title: "Mr",
-      first: "Hugh",
-      last: "Montgomery"
-    },
+    name: "Mr. Hugh Montagomery",
     email: "hugh.montgomery@example.com",
     dob: {
       date: "1958-10-21T04:10:25.753Z",
@@ -210,11 +166,7 @@ var fakeData = [
   },
   {
     gender: "female",
-    name: {
-      title: "Mrs",
-      first: "Ikrame",
-      last: "Brakel"
-    },
+    name: "Mrs. Ikrame Brakel",
     email: "ikrame.brakel@example.com",
     dob: {
       date: "1993-11-17T10:20:13.363Z",
@@ -229,11 +181,7 @@ var fakeData = [
   },
   {
     gender: "female",
-    name: {
-      title: "Mrs",
-      first: "Filippa",
-      last: "Pedersen"
-    },
+    name: "Mrs. Filippa Pedersen",
     email: "filippa.pedersen@example.com",
     dob: {
       date: "1950-05-31T09:48:31.987Z",
@@ -248,11 +196,7 @@ var fakeData = [
   },
   {
     gender: "male",
-    name: {
-      title: "Mr",
-      first: "حسین",
-      last: "پارسا"
-    },
+    name: "Mrs Hsyb Prs",
     email: "hsyn.prs@example.com",
     dob: {
       date: "1952-05-19T17:17:28.211Z",
@@ -267,11 +211,7 @@ var fakeData = [
   },
   {
     gender: "male",
-    name: {
-      title: "Mr",
-      first: "Brandão",
-      last: "Santos"
-    },
+    name: "Mr Brandao Santos",
     email: "brandao.santos@example.com",
     dob: {
       date: "1965-06-12T06:48:16.404Z",
