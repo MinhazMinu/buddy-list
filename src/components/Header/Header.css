@@ -2,10 +2,35 @@
   height: 180px;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
   .header {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .count,
+  .income {
+    width: 80%;
+    margin: 20px;
+  }
+  /* .header img {
+    height: 100px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+  } */
+  .header nav {
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 16px;
   }
 }
@@ -15,14 +40,14 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 16px;
   }
-} */
+}
 
 .header {
   margin: 0px 30px;
   padding: 10px 20px;
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 16px;
+  gap: 16px; */
   /* 
   position: fixed;
   width: 100%; */
@@ -36,12 +61,19 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  font-weight: 600;
+  padding-left: 30px;
 }
 nav a {
   text-decoration: none;
   color: black;
   margin-right: 20px;
   padding: 5px;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s linear;
+}
+nav a:hover {
+  border-bottom: 3px solid #e4e3e3;
 }
 .count,
 .income {
@@ -55,9 +87,14 @@ nav a {
 
   display: flex;
   justify-content: center;
+  transition: all 0.3s linear;
+
   /* align-items:  center; */
 }
-
+.count:hover,
+.income:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
 .amo,
 .bc {
   /* background-color: aqua; */
