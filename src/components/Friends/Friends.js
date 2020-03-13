@@ -21,6 +21,10 @@ const Friends = () => {
     setBuddy(newBuddy);
   };
 
+  //==============
+
+  // ==============
+
   return (
     <section>
       <div>{<Header buddy={buddy.length} amo={amo} />}</div>

@@ -2,10 +2,10 @@
   height: 140px;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 16px;
   }
 }
@@ -15,12 +15,19 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 16px;
   }
-}
+} */
 
 .header {
   margin: 0px 30px;
   padding: 10px 20px;
-  position: sticky;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  /* 
+  position: fixed;
+  width: 100%; */
+
+  /*  */
 }
 
 .header nav {
@@ -40,4 +47,6 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.head {
 }

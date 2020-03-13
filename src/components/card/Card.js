@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Card.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
+// ======================
 
+// ====================
 const Card = props => {
   const { gender, name, email, dob, phone, picture } = props.friend;
 
