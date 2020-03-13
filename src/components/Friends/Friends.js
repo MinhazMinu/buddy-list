@@ -9,15 +9,19 @@ import Header from "../Header/Header";
 // };
 
 const Friends = () => {
-  const [friend, setFriend] = useState([1]);
-  console.log(friend.length);
+  const [buddy, setBuddy] = useState([]);
+  console.log(buddy.length);
 
   const handleFriensList = props => {
     console.log("btnclicked", props);
+    const newBuddy = [...buddy, props];
+    setBuddy(newBuddy);
   };
 
   return (
     <section>
+      <div>{<Header buddy={buddy} />}</div>
+      <div>Buddy Counter : {buddy.length}</div>
       <div className="friend-container">
         {fakeData.map(sf => (
           <Card friend={sf} handleFriensList={handleFriensList}></Card>
@@ -25,7 +29,6 @@ const Friends = () => {
         //
         }
       </div>
-      <div>{<Header friend={friend.length}></Header>}</div>
     </section>
   );
 };
