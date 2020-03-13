@@ -18,7 +18,7 @@ const Header = props => {
             Total Income :{props.amo}
           </h3>
         </div>
-        <div></div>
+        <div className="search"></div>
         <nav>
           <a href="#">Home</a>
           <a href="#">Buddy</a>

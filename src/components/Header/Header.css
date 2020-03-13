@@ -43,7 +43,16 @@ nav a {
   margin-right: 20px;
   padding: 5px;
 }
-.count {
+.count,
+.search {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #eeeeee;
+  width: 100%;
+  padding: 16px;
+
+  border-radius: 8px;
+  text-align: center;
+
   display: flex;
   justify-content: center;
   align-items: center;
