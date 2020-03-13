@@ -20,6 +20,7 @@
 .header {
   margin: 0px 30px;
   padding: 10px 20px;
+  position: sticky;
 }
 
 .header nav {
@@ -34,4 +35,9 @@ nav a {
   color: black;
   margin-right: 20px;
   padding: 5px;
+}
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

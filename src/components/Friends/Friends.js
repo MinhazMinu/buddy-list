@@ -7,21 +7,24 @@ import Header from "../Header/Header";
 // const SingleFriend = props => {
 //   console.log(props);
 // };
+var amo = 0;
 
 const Friends = () => {
   const [buddy, setBuddy] = useState([]);
-  console.log(buddy.length);
+  const [amount, setAmount] = useState(0);
 
   const handleFriensList = props => {
-    console.log("btnclicked", props);
+    amo = amo + parseFloat(props.income);
+    console.log(amo);
+    setAmount(amo);
     const newBuddy = [...buddy, props];
     setBuddy(newBuddy);
   };
 
   return (
     <section>
-      <div>{<Header buddy={buddy} />}</div>
-      <div>Buddy Counter : {buddy.length}</div>
+      <div>{<Header buddy={buddy.length} amo={amo} />}</div>
+
       <div className="friend-container">
         {fakeData.map(sf => (
           <Card friend={sf} handleFriensList={handleFriensList}></Card>
