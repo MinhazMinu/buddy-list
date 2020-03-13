@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../logo.png";
 import "./Header.css";
 import { StickyContainer, Sticky } from "react-sticky";
+import SearchForm from "../SearchForm/SearchForm";
+
 let bincom = 0;
 const Header = props => {
   //   bincom = bincom + parseFloat(props.buddy.income);
@@ -13,12 +15,17 @@ const Header = props => {
           <img src={logo} alt="" />
         </div>
         <div className="count">
-          <h3>
-            Buddy Count :{props.buddy} <br />
-            Total Income :{props.amo}
-          </h3>
+          <h4>
+            Buddy Count :<br />
+            <span className="bc">{props.buddy}</span>
+          </h4>
         </div>
-        <div className="search"></div>
+        <div className="income">
+          <h4>
+            Total Income :<br />
+            <span className="amo">{props.amo}</span>
+          </h4>
+        </div>
         <nav>
           <a href="#">Home</a>
           <a href="#">Buddy</a>

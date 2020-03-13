@@ -1,5 +1,5 @@
 .header img {
-  height: 140px;
+  height: 180px;
 }
 
 /* @media screen and (min-width: 768px) {
@@ -44,7 +44,7 @@ nav a {
   padding: 5px;
 }
 .count,
-.search {
+.income {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #eeeeee;
   width: 100%;
@@ -55,7 +55,18 @@ nav a {
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items:  center; */
 }
-.head {
+
+.amo,
+.bc {
+  /* background-color: aqua; */
+  font-size: 80px;
+  font-weight: 100;
+}
+.amo {
+  color: salmon;
+}
+.bc {
+  color: teal;
 }
